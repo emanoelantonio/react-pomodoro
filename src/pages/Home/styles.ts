@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const HomeContainer = styled.main`
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -107,6 +108,5 @@ export const StartButton = styled.button`
 
   &:not(:disabled):hover{
     background: ${props => props.theme['green-700']};
-    /* color: ${props => props.theme.white}; */
   }
 `;
