@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HomeContainer = styled.main`
   flex: 1;
+  padding: 3.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,8 +35,6 @@ export const BaseButton = styled.button`
     opacity: 0.7;
     cursor: not-allowed;
   }
-
-
 `;
 
 export const StartButton = styled(BaseButton)`
